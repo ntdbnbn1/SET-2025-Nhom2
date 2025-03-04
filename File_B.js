@@ -1,13 +1,6 @@
-
-// Calulates BMI ( Boday Mass Index )
-
-// Variables for weight and height
-let weight = 95;
-let height = 1.74;
-
-// Calculate BMI
-let bmi = weight / ( height * height );
-
-// Print the result
-console.log("Your Body Mass Index (BMI) is: " + bmi.toFixed(2));
-
+// Number to check
+let number = 7;
+// Check if divisible by 2
+let isEven = ( number % 2 == 0)
+// Print result
+console.log("Number " + number + " is " + (isEven ? "even" : "odd"));
